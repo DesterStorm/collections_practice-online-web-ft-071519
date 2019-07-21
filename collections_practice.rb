@@ -50,12 +50,12 @@ def find_a(array)
   array.find_all do |word|
     word[0] == "a"
   end
-
+end
 # using select method
   # array.select do |word|
   #   word[0] == "a"
   # end
-end
+
 
 #["apple", "avis", "arlo", "ascot"]
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ]) 
@@ -75,7 +75,7 @@ end
   # array.inject do |sum,x|
    #  sum + x
    # end
-end
+
 
 #273
 sum_array([11,4,7,8,9,100,134]) 
